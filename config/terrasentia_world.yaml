@@ -1,15 +1,15 @@
-row_length: 7.5
-row_width: 1.35
+row_length: 40
+row_width: 0.75
 rows_count: 4
 row_segments:
   - straight
-plant_spacing_min: 0.015
-plant_spacing_max: 0.13
-plant_height_min: 0.5
-plant_height_max: 2.5
-plant_radius: 0.3
-hole_prob: 0.04
-hole_size_max: 7
-weeds: 128
+plant_spacing_min: 0.01
+plant_spacing_max: 0.15
+plant_height_min: 1.0
+plant_height_max: 6.5
+plant_radius: 2.0
+hole_prob: 0.1
+hole_size_max: 5
+weeds: 0
 weed_types: ["nettle", "unknown_weed"]
 ground_resolution: 0.1
