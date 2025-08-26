@@ -195,7 +195,7 @@
 {% endfor -%}
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>5.45099 -4.71679 1.58055 0 0.275643 2.35619</pose>
+        <pose frame=''>0.02 -25 1.58055 0.0 0.0 1.557785</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
