@@ -111,6 +111,14 @@
               <pos>{{ heightmap.pos.x }} {{ heightmap.pos.y }} 0</pos>
             </heightmap>
           </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>100000.0</kp>
+                <kd>10000.0</kd>
+              </ode>
+            </contact>
+          </surface>
         </collision>
       </link>
     </model>

@@ -39,7 +39,7 @@ class WorldDescription:
         row_segment_curved_arc_measure_max: float = 1.0,
         row_segment_island_radius_min: float = 1.0,
         row_segment_island_radius_max: float = 3.0,
-        ground_resolution: float = 0.02,
+        ground_resolution: float = 0.1,
         ground_elevation_max: float = 0.2,
         ground_headland: float = 2.0,
         ground_ditch_depth: float = 0.3,
