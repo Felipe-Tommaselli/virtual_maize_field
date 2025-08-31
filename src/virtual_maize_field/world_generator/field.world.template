@@ -127,6 +127,7 @@
     {# Cylinder model #}
     <model name='{{ coordinate.name }}'>
       <pose frame=''>{{ coordinate.x }} {{ coordinate.y }} {{ coordinate.z }} 0 -0 0</pose>
+      <static>true</static>
       <link name='{{ coordinate.name }}_link'>
         <inertial>
           <mass>{{ coordinate.mass }}</mass>
@@ -177,7 +178,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
-      </link>`
+  </link>
     </model>
     {# All ghost models have to be defined manually, since the SDF files already contains the collisions. #}
     {% elif coordinate.ghost == true -%}

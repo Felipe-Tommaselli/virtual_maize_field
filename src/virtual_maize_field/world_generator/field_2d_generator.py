@@ -528,7 +528,7 @@ class Field2DGenerator:
             coordinate = dict()
             coordinate["type"] = model.model_name
             coordinate["name"] = f"{model.model_name}_{index:04d}"
-            coordinate["static"] = str(model.static).lower()
+            coordinate["static"] = "true"
 
             if ghost and model.ghostable:
                 coordinate["ghost"] = ghost
